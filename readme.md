@@ -4,4 +4,4 @@
 
 A cutting-edge fixed-axis font, where sharp cutstrokes redefine elegance with no fruity business.
 
-download it here: [shuvam586.github.io/carica-papaya](shuvam586.github.io/carica-papaya)
+download it here: [shuvam586.github.io/carica-papaya](https://shuvam586.github.io/carica-papaya)
