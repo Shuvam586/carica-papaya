@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carica papaya</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <div class="nav-left">
+
+            <div class="logo"></div>
+            <div class="name">CARICA PAPAYA</div>
+
+        </div>
+        <div class="nav-right">
+            <div class="github-link"><a href="https://github.com/Shuvam586/carica-papaya" target="_blank">GITHUB</a></div>
+            <div class="download-link"><a href="./carica papaya.otf" download>DOWNLOAD</a></div>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="one" id="one">
+            <img src="./src/carica.png" alt="">
+        </div>
+        <div class="two" id="two">
+            <img src="./src/papaya.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="features">
+        <div class="para">
+            <div class="about">
+                <div class="p-heading">ABOUT</div>
+                <div class="p-text">A cutting-edge fixed-axis font, where sharp cutstrokes redefine elegance with no fruity business.</div>
+            </div>
+
+            <div class="time">
+                <div class="p-heading">TIME</div>
+                <div class="p-text">Created in two weeks, drawing inspiration from various fonts to redefine elegance with its unique design.</div>
+            </div>
+        </div>
+        <div class="controls">
+
+            <div class="left" onclick="document.getElementById('one').scrollIntoView({behavior: 'smooth'})">
+                <img src="./src/icons/arrow-left.svg" alt="left-arrow">
+            </div>
+            <div class="right" onclick="document.getElementById('two').scrollIntoView({behavior: 'smooth'})">
+                <img src="./src/icons/arrow-right.svg" alt="right-arrow">
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./src/script.js" defer></script>
+
+</body>
+</html>
